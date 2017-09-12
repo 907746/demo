@@ -1,0 +1,64 @@
+/* 
+* @Author: Marte
+* @Date:   2017-09-02 12:13:58
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-02 12:35:27
+*/
+*{
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+div.main{
+    margin: 100px auto;
+    width: 1200px;
+}
+
+ul.list{
+    
+}
+ul.list>li{
+    height:50px;
+    width: 300px;
+    line-height: 50px;
+    text-align: center;
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+    float:left;
+    border-radius: 5px 5px 0 0;
+}
+.list .active{
+    background-color: #3fb;
+}
+
+div.pic_box{
+    width:1200px;
+    height:460px;
+    overflow:hidden;
+
+}
+.pic_box .pic{
+    width:1200px;
+    height:460px;
+    display:none;
+}
+
+.pic_box .slide_pic{
+    display:block;
+}
+
+.pic1{
+    background: url(../img/1.jpg) no-repeat center center;
+}
+.pic2{
+    background: url(../img/2.jpg) no-repeat center center;
+}
+.pic3{
+    background: url(../img/3.jpg) no-repeat center center;
+}
+.pic4{
+    background: url(../img/4.jpg) no-repeat center center;
+}

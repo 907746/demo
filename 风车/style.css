@@ -1,0 +1,27 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-15 10:37:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-15 10:55:19
+*/
+.windcar{
+    margin: 80px auto;
+    width:300px;
+    transform-origin: 75px 150px ;
+    animation: roll .1s linear infinite;
+}
+
+.windcar img{
+    height:300px;
+    width: 300px;
+    animation: roll .1s linear infinite;
+}
+@keyframes roll {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+
+        transform: rotate(720deg);
+    }
+}

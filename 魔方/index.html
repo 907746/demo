@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body id="bgc2">
+    <div class="mf" id="mf">
+        <div class="squ qian">
+            <div class="gezi gezi1">1</div>
+            <div class="gezi gezi1">2</div>
+            <div class="gezi gezi1">3</div>
+            <div class="gezi gezi1">4</div>
+            <div class="gezi gezi1">5</div>
+            <div class="gezi gezi1">6</div>
+            <div class="gezi gezi1">7</div>
+            <div class="gezi gezi1">8</div>
+            <div class="gezi gezi1">9</div>
+        </div>
+        <div class="squ hou">
+            <div class="gezi gezi2">1</div>
+            <div class="gezi gezi2">2</div>
+            <div class="gezi gezi2">3</div>
+            <div class="gezi gezi2">4</div>
+            <div class="gezi gezi2">5</div>
+            <div class="gezi gezi2">6</div>
+            <div class="gezi gezi2">7</div>
+            <div class="gezi gezi2">8</div>
+            <div class="gezi gezi2">9</div>
+        </div>
+        <div class="squ shang">
+            <div class="gezi gezi3">1</div>
+            <div class="gezi gezi3">2</div>
+            <div class="gezi gezi3">3</div>
+            <div class="gezi gezi3">4</div>
+            <div class="gezi gezi3">5</div>
+            <div class="gezi gezi3">6</div>
+            <div class="gezi gezi3">7</div>
+            <div class="gezi gezi3">8</div>
+            <div class="gezi gezi3">9</div>
+        </div>
+        <div class="squ xia">
+            <div class="gezi gezi4">1</div>
+            <div class="gezi gezi4">2</div>
+            <div class="gezi gezi4">3</div>
+            <div class="gezi gezi4">4</div>
+            <div class="gezi gezi4">5</div>
+            <div class="gezi gezi4">6</div>
+            <div class="gezi gezi4">7</div>
+            <div class="gezi gezi4">8</div>
+            <div class="gezi gezi4">9</div>
+        </div>
+        <div class="squ zuo">
+            <div class="gezi gezi5">1</div>
+            <div class="gezi gezi5">2</div>
+            <div class="gezi gezi5">3</div>
+            <div class="gezi gezi5">4</div>
+            <div class="gezi gezi5">5</div>
+            <div class="gezi gezi5">6</div>
+            <div class="gezi gezi5">7</div>
+            <div class="gezi gezi5">8</div>
+            <div class="gezi gezi5">9</div>
+        </div>
+        <div class="squ you">
+            <div class="gezi gezi6">1</div>
+            <div class="gezi gezi6">2</div>
+            <div class="gezi gezi6">3</div>
+            <div class="gezi gezi6">4</div>
+            <div class="gezi gezi6">5</div>
+            <div class="gezi gezi6">6</div>
+            <div class="gezi gezi6">7</div>
+            <div class="gezi gezi6">8</div>
+            <div class="gezi gezi6">9</div>
+        </div>
+    </div>
+<!--     <div class="speedbox">
+        <a href="#" class="slower speedbtn" id="slower">&lt;&lt;</a>
+        <a href="#" class="faster speedbtn" id="faster">&gt;&gt;</a>
+    </div> -->
+
+
+
+<script type="text/javascript" >
+    
+    var bgc=document.getElementById("bgc2"),
+    timer=null;
+
+    window.onload=function(){
+        timer=setInterval(function(){
+        var bgc1=String("rgb("+parseInt(Math.random()*255+1)+","+parseInt(Math.random()*255+1)+","+parseInt(Math.random()*255+1)+")");    
+            bgc.style.backgroundColor=bgc1;
+        }, 50);
+    };
+
+
+
+</script>
+</body>
+</html>

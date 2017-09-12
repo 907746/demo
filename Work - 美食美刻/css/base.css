@@ -1,0 +1,196 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-10 10:18:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-12 11:58:18
+*/
+body,p,ul,ol,dl,li,dd,dt,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+img,input{
+    margin: 0;
+    padding: 0;
+    border:0 none;
+    outline-style:none;
+    vertical-align: middle;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+h2.title{
+    font-size: 22px;
+    height:42px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    float: left;
+}
+
+/*背景颜色*/
+body{
+    background-color: #fae8c8;
+}
+
+/*我来组成头部*/
+header{
+    background-color: #c70202;
+}
+.title{
+    background-color: #e9e8e8;
+}
+.title p{
+    line-height: 50px;
+    height: 50px;
+    margin-left: 175px;
+
+}
+.header{}
+.logo{
+    background: url(../img/logo.png) no-repeat center;
+    height: 97px;
+    width: 221px;
+    text-indent: -2000px;
+    float:left;
+}
+.search{
+    margin-top: 34px;
+    border:1px solid #fff;
+    height:26px;
+    border-radius: 3px;
+    float:left;
+    margin-left: 45px;
+/*    line-height: 97px;*/
+}
+.search input{
+    float:left;
+}
+.search_bar{
+    height:26px;
+    width:215px;
+    padding-left: 20px;
+}
+.search_btn{
+    height:26px;
+    width: 59px;
+    background-color: #c70202;
+    border-radius: 0 3px 3px 0;
+}
+.login{
+    float: right;
+}
+.list li{
+    float:left;
+    height:37px;
+    padding: 30px 10px;
+    line-height: 37px;
+}
+li.login_qq{
+    background: url(../img/qq_logo.png) no-repeat left ;
+    padding-left: 25px;
+}
+li.login_wb{
+    background: url(../img/weibo.png) no-repeat left ;
+    padding-left: 25px;
+}
+.list a{
+    color: #fff;
+}
+a.login_btn{
+    margin-top: 4px;
+    font-size: 18px;
+    height: 30px;
+    width:56px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    background-color: #fff;
+}
+/*头部结束*/
+
+/*我来组成脚步*/
+footer{
+    background-color: #2f2f2f;
+    height: 300px;
+}
+.footer{
+    padding-top: 26px;
+    height: 220px;
+    border-bottom: 1px solid #3a3a3a;
+}
+.ft_list{
+    color: #ccc;
+    float:left;
+}
+.ft_list li {
+    height:32px;
+    line-height: 32px;
+    font-size: 12px;
+}
+.ft_list span{
+    color: #ff3232;
+    font-size: 14px;
+}
+.share_box{
+    float:right;
+}
+.share{
+    margin-left: 20px;
+    float: left;
+}
+.share .share_img{
+    height:105px;
+    width: 105px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+.share .share_img a{
+    width: 105px;
+    height: 105px;
+}
+
+.share .share_txt{
+    width: 103px;
+    text-align: center;
+    color: #666;
+    font-size: 10px;
+}
+
+.share .share_txt a{
+    color: #666;
+}
+.share_wb{
+    background: url(../img/wb.jpg) no-repeat center;
+}
+.share_qq{
+    background: url(../img/qq.jpg) no-repeat center;
+}
+.share_wx{
+    background: url(../img/ewm.png) no-repeat center;
+}
+.share_app{
+    background: url(../img/ewm.jpg) no-repeat center;
+}
+/*脚部结束*/
+

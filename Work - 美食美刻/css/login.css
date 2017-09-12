@@ -1,0 +1,123 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-11 20:07:45
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-12 11:41:31
+*/
+
+/*我来组成胸部*/
+.main{
+    margin-top: 60px;
+    margin-bottom: 184px;
+}
+.banner{
+    height: 620px;
+    width: 506px;
+    float:left;
+    background: url(../img/banner.png) no-repeat center;
+
+}
+.login_box{
+    height:620px;
+    width: 482px;
+    background-color: #fff;
+    float:left;
+    padding: 16px;
+    box-sizing: border-box;
+}
+h2.login_title{
+    height: 80px;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+.login_box input{
+    display:block;
+}
+.login_txt{
+    width: 326px;
+    height: 58px;
+    border: 2px solid #c5c5c5;
+    padding: 0 60px;
+    margin-top: 5px;
+    margin-bottom: 36px;
+    font-size: 20px;
+}
+.username{
+    background: url(../img/u_name.png) no-repeat 10px center;
+}
+.password{
+    background: url(../img/u_pwd.png) no-repeat 14px center;
+}
+.check_bar{
+    width: 446px;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+}
+input.rem_password{
+    float: left;
+    -webkit-transform: scale(1.5,1.5);
+       -moz-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+         -o-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+    height:12px;
+    width: 12px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+label.rem_password{
+    float:left;
+    display: block;
+    font-size: 24px;
+    margin-left: 30px;
+    height: 24px;
+}
+.fgt_password{
+    float: right;
+    font-size: 24px;
+}
+.login_sbt{
+    height: 62px;
+    width: 446px;
+    background-color: #e60012;
+    color: #fff;
+    margin-top: 40px;
+    border: none;
+    font-size: 26px;
+}
+h3.other_title{
+    margin-top: 66px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.otherway{
+    margin-top: 40px;
+
+}
+.otherway a{
+    float: left;
+    padding-left: 40px;
+    height: 31px;
+    line-height: 31px;
+    margin-left: ;
+    font-size: 16px;
+}
+a.qq_login{
+    background: url(../img/qq_logo.png) no-repeat left;
+}
+a.wb_login{
+    background: url(../img/weibo.png) no-repeat left ;
+    margin-left: 60px;
+}
+a.email{
+    background: url(../img/email.png) no-repeat left;
+    float: right;
+    
+/*    padding-left: 33px;*/
+}   
+/*胸部结束*/

@@ -1,0 +1,184 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-17 09:30:04
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-18 19:36:55
+*/
+
+.banner_bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.banner_bg_img {
+    height: 644px;
+    background: url(../img/a_bg.jpg) no-repeat top center;
+}
+
+.main_box {
+    position: relative;
+    height: 480px;
+    background-color: #6fd;
+    /*    font-size: 200px;
+    color: #fff;
+    line-height: 644px;
+    text-align: center;
+    font-weight: bold;
+    */
+    ;
+}
+
+.main_list_box {
+    float: left;
+    width: 190px;
+    height: 480px;
+    background-color: #6e6568;
+}
+
+.main_list {
+    margin-top: 20px;
+}
+
+.main_list li {
+    line-height: 28px;
+    height: 28px;
+    padding-left: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.main_list li a {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 3px;
+    color: #fff;
+}
+
+.main_list li:hover {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.main_list li a:hover {
+    color: #f00;
+}
+.main_li_box{
+    position: absolute;
+    width:400px;
+    height:400px;
+    right:-400px;
+    top:0;
+    z-index: 999;
+    display:none;
+    background-color: #fd3;
+}
+.phone{
+    top: 28px;
+    background-color: #3ba;
+
+}
+.computer{
+    top: 56px;
+    background-color: #1af;
+}
+.fur{
+    top: 84px;
+    background-color: #52f;
+}
+.clo_man{
+    top:112px;
+    background-color: #bad;
+}
+
+.banner_box {
+    float: left;
+    width: 790px;
+    margin-left: 10px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner_box img {
+    float: left;
+}
+
+.banner_img1 {
+    width: 790px;
+    height: 340px;
+    margin-bottom: 10px;
+}
+
+.no_active {
+    display: none;
+}
+
+.banner_img2 {
+    width: 390px;
+    height: 130px;
+}
+
+.banner_img3 {
+    width: 390px;
+    height: 130px;
+    margin-left: 10px;
+}
+
+.banner_box .dots {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    width: 160px;
+    height: 20px;
+    padding: 0 10px;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.banner_box .dots li {
+    float: left;
+    margin: 3px 3px;
+}
+
+.banner_box .dots a {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.banner_box .dots a:hover {
+    background-color: #f00;
+}
+
+.banner_box .dots a.active {
+    background-color: #f00;
+}
+
+.banner_btn {
+    font-family: '宋体';
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: rgba(255, 255, 255, .6);
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.banner_btn:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.banner_prev {
+    left: 0;
+}
+
+.banner_next {
+    right: 0;
+}

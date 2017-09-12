@@ -1,0 +1,98 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-14 10:27:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-14 16:09:17
+*/
+body{
+    overflow:hidden;
+    background-color: #00f;
+}
+.a{
+    height: 10vw;
+    width: 90vw;
+/*    background: url(../paopao.png) no-repeat top , url(../paopao.png) no-repeat bottom;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5vw;
+    margin-left: -45vw;
+    transition: all 2s linear ;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 100% 0 ;
+    
+/*    display:none;*/
+/*    transform: skew(45deg);*/
+}
+
+
+.a{
+    -webkit-animation: roll .1s linear infinite  ;
+    -o-animation: roll .1s linear infinite  ;
+    animation: roll .1s linear infinite  ;
+}
+@keyframes roll {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(720deg);}
+}
+.b{
+    height: 100vw;
+    width: 100vw;
+    background: url(222.png) no-repeat center center;
+    position: absolute;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    margin-top: -50vw;
+    margin-left: -50vw;
+/*    border-radius: 50% ;*/
+    animation: roll 1s linear infinite ;
+}
+
+/*.a:hover{
+        background: url(../paopao.png) no-repeat bottom , url(../paopao.png) no-repeat top;
+        background-color: #3fb;
+        box-shadow: 0 0 40px #333;
+
+}
+.b{
+    height: 300px;
+    width: 234px;
+    background: url(1.jpg);
+    transition: all 1s ;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+.b:hover{
+    box-shadow: 0 2px 20px #000;
+    top: 9.5%;
+}
+.c{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    left:55%;
+    top: 10%;
+    background: url(213.png) no-repeat top ;
+    transition: all 1s   ;
+    overflow: hidden;
+}
+.c img{
+    display: block;
+    margin: 0 auto;
+}
+/*.c:hover{
+    background-position: bottom;
+}*/
+.bot{
+    height:100px;
+    width:200px;
+    position: absolute;
+    bottom: -100px;
+    background-color: red;
+    transition: all 1s;
+}
+.c:hover .bot{
+    bottom: 0;
+}*/

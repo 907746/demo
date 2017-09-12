@@ -1,0 +1,44 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 18:24:11
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-26 18:49:46
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.cal{
+    height:500px;
+    width: 400px;
+    margin: 30px auto;
+    background-color: #ccc;
+    border: 2px solid #000;
+
+}
+.cal_txt{
+    height:100px;
+    width:400px;
+    display: block;
+    border: none;
+    font-size: 40px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.btn{
+    width:25%;
+    height:70px;
+    margin: 2px 0;
+    display:block;
+    float: left;
+    box-sizing: border-box;
+}
+.btn_bar{
+    height:100px;
+    width:100%;
+}
+
+.btn,.btn_bar{
+    font-size: 40px;
+}

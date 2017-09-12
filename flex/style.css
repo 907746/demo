@@ -1,0 +1,61 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-15 16:16:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-15 19:36:17
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    display: flex;
+    width:100vw;
+
+}
+.banner .box{
+    flex:1;
+    display:block;
+}
+.box img{
+    width:100%;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    width:100%;
+}
+.main div:first-child{
+    border:1px solid #fff;
+}
+.box1{
+    flex:1;
+    background-color: #3fb;
+    display:flex;
+    border-radius: 15px;
+    margin: 10px;
+}
+.box2{
+    flex:1;
+    /*border: 1px solid #fff;;*/
+    display:flex;
+    flex-direction: column;
+}
+.box3{
+    flex:1;
+    height: 50px;
+    border:1px solid #fff;
+    box-sizing: border-box;
+
+}
+.footer{
+    width:10vw;
+    display:flex;
+}
+.footer div{
+    flex:1;
+}
+.footer img{
+    width:100%;
+}

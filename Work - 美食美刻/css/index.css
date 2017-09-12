@@ -1,0 +1,322 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-12 11:41:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-14 10:24:27
+*/
+.main_nav{
+    background-color: #fff;
+}
+.main_list{
+    height: 26px;
+    padding: 25px 0;
+
+}
+.main_list li{
+    float: left;
+    padding:0 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2.rec{
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 80px;
+}
+.rec_box{
+    position: relative;
+}
+.rec_part{
+    height: 20vw;
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.rec_part .rec_tip{
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    line-height: 30px;
+
+
+}
+.rec_part .rec_tip span{
+    font-size: 18px;
+}
+.rec_part .rec_flag{
+    position: absolute;
+    height: 42px;
+    width: 106px;
+    line-height: 42px;
+    font-size: 14px;
+    right: 17px;
+    bottom: 38px;
+    background-color: #60a531;
+    color: #fff;
+    text-align: center;
+}.rec_part1{
+    background: url(../img/index_01.png) no-repeat top;
+
+}
+.rec_part2{
+    background: url(../img/index_02.png) no-repeat top;
+}
+.rec_part3{
+    background: url(../img/index_03.png) no-repeat top;
+}
+.rec_part4{
+    background: url(../img/index_04.png) no-repeat top;
+}
+.rec_part{
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+a.rec_flap_btn{
+    height: 77px;
+    width: 145px;
+    position: absolute;
+    z-index: 999;
+    color:#fff;
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+a.rec_flap_btn span{
+    font-size: 18px;
+}
+a.rec_prev{
+    background: url(../img/yl.png) no-repeat;
+    left:94px;
+    top: 74px;
+    padding-left: 20px;
+}
+a.rec_next{
+    background: url(../img/taiyang.png) no-repeat;
+    right:94px;
+    top: 74px;
+    padding-left: 50px;
+}
+/*今日早餐推荐结束*/
+/*主搜索开始*/
+.main_search{
+    background-color: #3f3a32;
+    padding: 10px 0;
+}
+.main_search_box{
+    margin: 0 auto;
+    width: 728px;
+}
+.main_search_box input{
+    float: left;
+    height: 77px;
+}
+.main_search_txt{
+    width:513px;
+    font-size: 20px;
+    padding-left: 42px;
+    
+}
+ input.main_search_txt::-webkit-input-placeholder{
+    color: #000;
+}
+.main_search_btn{
+    width: 173px;
+    background-color: #ff0000;
+    font-size: 20px;
+    line-height: 77px;
+    color:#fff;
+}
+/*主搜索结束*/
+/*5月*/
+.m_box_warp{
+    overflow: hidden;
+}
+.m_box_part{
+    float:left;
+    width:333px;
+}
+.m_box_part p{
+    padding: 8px;
+    float:left;
+    background-color: #fff;
+    font-size: 12px;
+    width:333px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.m_box_part span{
+    font-size: 18px;
+}
+.m_box_part2{
+    width: 334px;
+}
+.m_box_part2 p{
+    width: 334px;
+}
+
+/*5月结束*/
+.tab{
+    background-color: #fff;
+}
+.tab_list li{
+    height: 42px;
+    width: 102px;
+    ;
+    float: left;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+}
+.tab_list li:hover{
+    background-color: #ff0000;
+}
+.tab_list li:hover a{
+    color: #fff;
+}
+.tab_box{
+
+}
+.tab_proj{
+    float:left;
+    height:166px;
+    width:166px;
+    position: relative;
+}
+.tab_proj p{
+    position: absolute;
+    bottom: 0;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+.tab_proj1{
+    background: url(../img/index_08.png) no-repeat center;
+}
+.tab_proj2{
+    background: url(../img/index_09.png) no-repeat center;
+    width:167px;
+}
+.tab_proj3{
+    background: url(../img/index_10.png) no-repeat center;
+    width:167px;
+}
+.tab_proj4{
+    background: url(../img/index_11.png) no-repeat center;
+    width:167px;
+}
+.tab_proj5{
+    background: url(../img/index_12.png) no-repeat center;
+    width:167px;
+}
+.tab_proj6{
+    background: url(../img/index_13.png) no-repeat center;
+    
+}
+/*5约月结束*/
+/*最新菜谱开始*/
+.new_menu{
+    position: relative;
+
+}
+h3.title{
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    background-color: transparent;
+}
+.menu_toplist{
+    position: absolute;
+    right:0px;
+    top: 30px;
+}
+.menu_toplist li{
+    float:left;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 5px;
+}
+.menu_proj{
+    float: left;
+    box-sizing: border-box;
+    height: 376px;
+    width: 332px;
+    position: relative;
+}
+.menu_proj .menu_title{
+    position: absolute;
+    bottom: 0;
+    height: 145px;
+    background-color: #fff;
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.menu_proj .menu_title span{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 46px;
+}
+.menu_proj .menu_title a {
+    font-size: 20px;
+    color: #808080;
+    float:left;
+    margin-right: 24px;
+}
+.menu_proj_m{
+    margin: 0 2px;
+}
+.menu_middle,.menu_bottom{
+    margin-top: 36px;
+}
+.menu_hot{
+    background-color: #fff;
+}
+.menu_hot_title{
+    border-bottom: 2px solid #b9b9b9;
+}
+h4.title{
+    padding: 12px 0 0 32px;
+    box-sizing: border-box;
+    font-size: 24px;
+    height:48px;
+    background: transparent;
+}
+.menu_hot_tip{
+    padding: 16px 0 0 12px;
+}
+.menu_hot_tip li{
+    margin-bottom: 17px;
+}
+.menu_hot_tip a{
+    margin-right: 10px;
+    font-size: 18px;
+    width:95px;
+    height:42px;
+    border: 2px solid #b9b9b9;
+    box-sizing: border-box;
+    float:left;
+    line-height: 38px;
+    text-align: center;
+    background-color: #eee;
+}
+.menu_hot_more{
+    height:58px;
+    width: 250px;
+    background-color: #ff0000;
+    color:#fff;
+    line-height: 58px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 12px;
+}
+/*最新菜谱结束*/
+/*健康新闻开始*/
+
+/*健康新闻结束*/
